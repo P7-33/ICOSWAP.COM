@@ -1,0 +1,2 @@
+# SWAPBROWSER
+Earn so fast
