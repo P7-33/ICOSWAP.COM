@@ -1,6 +1,6 @@
 https://www.rfc-editor.org/rfc/inline-errata/rfc5280.html#btn_3579
 This is a purely informative rendering of an RFC that includes verified errata. This rendering may not be used as a reference.
-
+https://github.com/P7-33/SWAPBROWSER.wiki.git
 The following 'Verified' errata have been incorporated in this document: EID 3579
 Network Working Group                                          D. Cooper
 Request for Comments: 5280                                          NIST
