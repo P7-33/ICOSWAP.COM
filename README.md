@@ -94,68 +94,7 @@ Aa
 SAVE
 Read Only
 
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
-82
-83
-84
-85
-86
-87
-88
-89
-90
-91
-92
-93
-94
-95
-96
-97
-98
-99
-100
-101
+
           required: true
           schema:
             type: integer
@@ -185,7 +124,7 @@ Read Only
           schema:
             type: string
           example: 
-            "0xed3a0ac63d7e48399d05d9a25925e8fcb0cd98d
+            "0xD9AB973c8D3f220268B02Ff2Bd40f7B44EcC5f94"
             0"
         - in: query
           name: round_id
@@ -255,7 +194,7 @@ contract_address *
 string
 (path)
 The address of the contract you want to query from
-Owner:0x15ABC36db169Ca06670791B143A19bEc7Ba4e83f
+Owner:0xD9AB973c8D3f220268B02Ff2Bd40f7B44EcC5f94
 block_time *
 integer($int64)
 (query)
