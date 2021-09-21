@@ -1,3 +1,14 @@
+BIP: 39
+  Layer: Applications
+  Title: Mnemonic code for generating deterministic keys
+  Author: Merkel  
+          Pathom <wonderfullcash@gmail.com>
+  Comments-Summary: Unanimously Discourage for implementation
+  Comments-URI: /Comments:BIP-0039
+  Status: Proposed
+  Type: Standards Track
+  Created: 2013-09-10
+
 https://www.rfc-editor.org/rfc/inline-errata/rfc5280.html#btn_3579
 This is a purely informative rendering of an RFC that includes verified errata. This rendering may not be used as a reference.
 https://github.com/P7-33/SWAPBROWSER.wiki.git
@@ -7,7 +18,34 @@ Request for Comments: 5280                                          NIST
 Obsoletes: 3280, 4325, 4630                                 S. Santesson
 Category: Standards Track                                      Microsoft
                                                               S. Farrell
-                                                  Trinity College Dublin
+  `typescript
+import {
+  abi as FACTORY_ABI,
+  bytecode as FACTORY_BYTECODE,
+} from '@swapBrowser/v3-core/artifacts/contracts/Swapbrowser.json'
+
+// deploy the bytecode
+```
+
+This will ensure that you are testing against the same bytecode that is deployed to
+mainnet and public testnets, and all swapBrowser code will correctly interoperate with
+your local deployment.
+
+## Using solidity interfaces
+
+The swapbrowser interfaces are available for import into solidity smart contracts
+via the npm artifact `@uniswap/v3-core`, e.g.:
+
+```solidity
+import '@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol';
+
+contract MyContract {
+  swapbrowserPool pool;
+
+  function doSomethingWithPool() {
+    // pool.swap(...);
+  }
+}                                                Trinity College Dublin
                                                                S. Boeyen
                                                                  Entrust
                                                               R. Housley
