@@ -19,10 +19,10 @@ Obsoletes: 3280, 4325, 4630                                 S. Santesson
 Category: Standards Track
 
 Colaboration: 
- https://github.com/skywinder/web3swift/tree/2.2.2#web3swift 
-                                 Microsoft
+ https://github.com/skywinder/web3swift/tree/2.2.2#web3swift
+                                
 
-                                                              S. Farrell
+                                                           S. Farrell
   `typescript
 import {
   abi as FACTORY_ABI,
