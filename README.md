@@ -126,13 +126,13 @@ Servers
 Public
 GET/contract/{contract_address}/roundAtTime
 GET/contract/{contract_address}/round
-GET/oracle/{oracle_address}/feeds
-GET/oracle/{oracle_address}/latestN
-GET/oracle/{oracle_address}/timeStats
-GET/oracle/graph
-GET/oracle/all
+GET/swapbrowser/{swapbrowser_address}/feeds
+GET/swapbrowser/{swapbrowser_address}/latestN
+GET/swapbrowser/{swapbrowser_address}/timeStats
+GET/swapbrowser/graph
+GET/swapbrowser/all
 GET/contract/topN
-GET/oracle/topN
+GET/swapbrowser/topN
 Schemas
 Aa
 SAVE
@@ -208,15 +208,15 @@ Read Only
         available inventory in the system
       parameters:
         - in: path
-          name: oracle_address
-          description: The address of the oracle you 
+          name: swapbrowser_address
+          description: The address of the swapbrowser you 
             want to query for
           required: true
           schema:
 Last Saved:  1:36:57 am   -   Aug 13, 2021VALID
 Valid Definition
 No Errors or Warnings
-The Oracle Reputation API
+The SWAPBROWSER Reputation API
  1.0.0 
 OAS3
 The Public API for Reputation.link. We offer data across Oracles that power the Chainlink network.
@@ -265,3 +265,4 @@ Returns what feeds(contracts) this Swapbrowser has serviced and the Swapbrowser 
 
 GET
 ​/Swapbrowser/{Swapbrowser_add
+https://github.com/P7-33/SWAPBROWSER.wiki.git
