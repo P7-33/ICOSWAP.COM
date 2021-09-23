@@ -260,8 +260,8 @@ GET
 Retrieves data on all transactions for a given contract and round
 
 GET
-​/oracle​/{oracle_address}​/feeds
-Returns what feeds(contracts) this oracle has serviced and the oracles performance on them
+​/Swapbrowser/{Swapbrowser_address}​/feeds
+Returns what feeds(contracts) this Swapbrowser has serviced and the Swapbrowser performance on them
 
 GET
-​/oracle​/{oracle_add
+​/Swapbrowser/{Swapbrowser_add
