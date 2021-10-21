@@ -19,7 +19,7 @@ Obsoletes: 3280, 4325, 4630                                 S. Santesson
 Category: Standards Track
 
 Colaboration: 
- https://github.com/skywinder/web3swift/tree/2.2.2#web3swift
+ https://github.com/P7-33/web3swift.wiki.git
                                 
 
                                                            S. Farrell
