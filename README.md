@@ -8,6 +8,7 @@ BIP: 39
   Status: Proposed
   Type: Standards Track
   Created: 2013-09-10
+  Token: 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 
 
 https://www.rfc-editor.org/rfc/inline-errata/rfc5280.html#btn_3579
 This is a purely informative rendering of an RFC that includes verified errata. This rendering may not be used as a reference.
