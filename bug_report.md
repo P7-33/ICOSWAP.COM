@@ -10,8 +10,8 @@ assignees: ''
 <!--
 This issue tracker for bug reports and feature requests only.
 
-  * Please open a support ticket by sending mail to support@rubygems.org if your issue is related your rubygems.org account or you need help using the site.
-  * Please submit a report using https://hackerone.com/rubygems if you are reporting a security vulnerability.
+  * Please open a support ticket by sending mail to support@SwapBrowser.org if your issue is related your SwapBrowser.org account or you need help using the site.
+  * Please submit a report using https://hackerone.com/SwapBrowser if you are reporting a security vulnerability.
 --->
 
 <!--- Provide a general summary of the issue in the Title above -->
@@ -34,7 +34,7 @@ This issue tracker for bug reports and feature requests only.
 
 ## Environment
 Browser and its version:
-RubyGems version:
+SwapBrowser version:
 
 ## Additional Context
 <!--- Add any other context about the problem here. -->
