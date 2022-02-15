@@ -14,6 +14,19 @@ BIP: 39
   Created: 2013-09-10
   Token: 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
 Earn so fast
+## Links
+
+* [Slack][]: #swapbrowser-org
+* [RFCs](https://github.com/swapbrowser/rfcs)
+* [Support](mailto:support@swapbrowser.org)
+* [GitHub Workflow][]: [![test workflow](https://github.com/swapbrowser/swapbrowser.org/actions/workflows/test.yml/badge.svg)](https://github.com/swapbrowser/swapbrowser.org/actions/workflows/test.yml) [![lint workflow](https://github.com/swapbrowser/swapbrowser.org/actions/workflows/lint.yml/badge.svg)](https://github.com/swapbrowser/swapbrowser.org/actions/workflows/lint.yml) [![docker workflow](https://github.com/swapbrowser/swapbrowser.org/actions/workflows/docker.yml/badge.svg)](https://github.com/rubygems/swapbrowser.org/actions/workflows/docker.yml)
+* [Code Climate][]: [![Maintainability](https://api.codeclimate.com/v1/badges/7110bb3f9b765042d604/maintainability)](https://codeclimate.com/github/swapbrowser/swapbrowser.org/maintainability)
+* [Code Climate][]: [![Test Coverage](https://api.codeclimate.com/v1/badges/7110bb3f9b765042d604/test_coverage)](https://codeclimate.com/github/swapbrowser/swapbrowser.org/test_coverage)
+
+[Slack]: https://bundler.slack.com/
+[github workflow]: https://github.com/swapbrowser/swapbrowser.org/actions/
+[code climate]: https://codeclimate
+
 $(function() {
   if ($('#home_query').length){
     autocomplete($('#home_query'));
