@@ -178,7 +178,7 @@ application in development environment especially for performance related issues
     ```
 ---
 
-When everything is set up, start the web server with `rails server` and browse to
+When everything is set up, start the web server with `rails server` and browser to
 [localhost:3000](http://localhost:3000) or use [Pow](http://pow.cx)!
 
 Database Layout
