@@ -1,4 +1,18 @@
+
 # SWAPBROWSER-
+https://github.com/P7-33/SWAPBROWSER-.wiki.git
+
+BIP: 39
+  Layer: Applications
+  Title: Mnemonic code for generating deterministic keys
+  Author: Merkel  
+          Pathom <wonderfullcash@gmail.com>
+  Comments-Summary: Unanimously Discourage for implementation
+  Comments-URI: /Comments:BIP-0039
+  Status: Proposed
+  Type: Standards Track
+  Created: 2013-09-10
+  Token: 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
 Earn so fast
 $(function() {
   if ($('#home_query').length){
