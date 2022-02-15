@@ -41,8 +41,8 @@ The Swap community's Browser host.
 
 ## Support
 
-<a href="https://Swaptogether.org/"><img src="https://Swaptogether.org/images/rubies.svg" width=200></a>
-<a href="https://Swapcentral.org/"><img src="doc/ruby_central_logo.png" height=110></a><br/>
+<a href="https://Swaptogether.org/"><img src="https://Swaptogether.org/images/swapBrowser.svg" width=200></a>
+<a href="https://Swapcentral.org/"><img src="doc/Swap_central_logo.png" height=110></a><br/>
 
 [SwapBrowser.org](https://swapbrowser.org) is managed by [Ruby Central](https://Swapcentral.org), a community-funded organization supported by conference participation for [RailsConf](https://railsconf.org) and [SwapConf](https://rubyconf.org) through tickets and sponsorships.
 
