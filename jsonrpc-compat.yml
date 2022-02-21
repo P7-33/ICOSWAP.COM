@@ -1,0 +1,392 @@
+                   
+  
+{
+  "Actors": [
+    {
+      "id": "1",
+      "firstName": "SWAP",
+      "lastName": "BROWSER"
+    },
+    {
+      "id": "2",
+      "firstName:"SWAP",
+      "lastName": "BROWSER"
+    }
+  ]
+}
+
+{
+  "id": 1,
+  "age": 30,
+  "Name": "SWAPBROWSER",
+  "Address" :[
+      {
+        "city":"pensilvania",
+        "country": "USA"
+      },
+      {
+        "city":"London",
+        "country": "UK"
+      }
+    ],
+  "wife":null,
+  "ishavingmobile":true,
+  "firstmovie" :{
+    "name":"Dr. No",
+    "releaseyear":2019
+  }
+ 
+}
+
+function IsValidJSONString(str) {
+    try {
+        JSON.parse(str);
+    } catch (e) {
+        return false;
+    }
+    return true;
+}
+var validjsontext = '{"firstnam":"SWAP","surname":"BROWSER","mobile":["https://github.com/P7-33/SWAPBROWSER.wiki.git"]}'; 
+
+var invalidjsontext = '{"firstnam""SWAP","surname":"BROWSER","mobile":["https://github.com/P7-33/SWAPBROWSER.wiki.git"]}'; 
+
+console.log("With Valid JSON Text: "+IsValidJSONString(validjsontext));
+console.log("With inValid JSON Text: "+IsValidJSONString(invalidjsontext));
+
+function IsValidJSONString(str) {
+    try {
+        JSON.parse(str);
+    } catch (e) {
+        return false;
+    }
+    return true;
+}
+category
+Blogging (1)
+Html (1)
+Java (4)
+Javascript (5)
+Jquery (2)
+Json (5)
+Mysql (1)
+Performance (1)
+Php (1)
+Problem solving (3)
+Python (9)
+Testing (1)
+Xml (2)
+{
+  "openapi" : "3.0.0",
+  "servers" : [ {
+    "description" : "SWAPBROWSER API Auto Mocking",
+ "url" : "https://github.com/P7-33/SWAPBROWSER.wiki.
+  }
+  },
+  "tags" : [ {
+    "name" : "Public",
+    "description" : "Operations available to anyone"
+  } ],
+  "paths" : {
+    "/contract/{contract_address}/roundAtTime" : {
+      "get" : {
+        "tags" : [ "Public" ],
+        "summary" : "Retrieves the contract answer and answer statistics for a round closest to the passed in timestamp",
+        "operationId" : "aas",
+        "description" : "By passing in the appropriate options, you can search for available inventory in the system",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "contract_address",
+          "description" : "The address of the contract you want to query from",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "0xc7d0b7C45b5eDe5704D46C69Dff7813A55671b5a"
+        }, {
+          "in" : "query", u
+          "name" : "block_time",
+          "description" : "The unix timestamp in seconds you want to retrieve from",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64",
+            "minimum" : 0
+          },
+          "example" : 1628832878
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "search results matching criteria"
+          }
+        }
+      }
+    },
+    "/contract/{contract_address}/round" : {
+      "get" : {
+        "tags" : [ "Public" ],
+        "summary" : "Retrieves data on all transactions for a given contract and round",
+        "operationId" : "CRound",
+        "description" : "By passing in the appropriate options, you can search for available inventory in the system",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "contract_address",
+          "description" : "The address of the contract you want to query for",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "0xc7d0b7C45b5eDe5704D46C69Dff7813A55671b5a"
+        }, {
+          "in" : "query",
+          "name" : "round_id",
+          "description" : "The ID of the round",
+          "required" : true,
+          "schema" : {
+            "type" : "integer"
+          },
+          "example" : 3256
+        }, {
+          "in" : "query",
+          "name" : "contract_type",
+          "description" : "The type of contract (ocr, flux)",
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "ocr"
+        }, {
+          "in" : "query",
+          "name" : "source",
+          "description" : "Which network to conduct the search in (BSC, Polygon, Eth_Mainnet)",
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "BSC"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "search results matching criteria"
+          }
+        }
+      }
+    },
+    "/SWB/{SWB_address}/feeds" : {
+      "get" : {
+        "tags" : [ "Public" ],
+        "summary" : "Returns what feeds(contracts) this SWB has serviced and the  performance on them",
+        "operationId" : "feeds",
+        "description" : "By passing in the appropriate options, you can search for available inventory in the system",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "SwaBrowser(SWB)_address",
+          "description" : "The address of the  you want to query for",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "0xc7d0b7C45b5eDe5704D46C69Dff7813A55671b5a"
+        }, {
+          "in" : "query",
+          "name" : "time",
+          "description" : "The time period over which to retrieve data",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "all_time"
+        }, {
+          "in" : "query",
+          "name" : "source",
+          "description" : "Which network to conduct the search in (BSC, Polygon, Eth_Mainnet)",
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "SWB"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "search results matching criteria"
+          }
+        }
+      }
+    },
+    "/SWB/{SWB_address}/latestN" : {
+      "get" : {
+        "tags" : [ "Public" ],
+        "summary" : "Returns the last N submissions this SWB has made",
+        "operationId" : "latestN",
+        "description" : "By passing in the appropriate options, you can search for available inventory in the system",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "SwapBrowser(SWB)_address",
+          "description" : "The address of the SwapBrowser you want to query for",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "0xBb8Dc7A7579E36672DCeE54184Fb755458F6e1e8"
+        }, {
+          "in" : "query",
+          "name" : "num",
+          "description" : "The number records you want to retrieve",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64",
+            "minimum" : 1
+          },
+          "example" : 10
+        }, {
+          "in" : "query",
+          "name" : "source",
+          "description" : "Which network to conduct the search in (BSC, Polygon, Eth_Mainnet)",
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "SWB"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "search results matching criteria"
+          }
+        }
+      }
+    },
+    "/contract/topN" : {
+      "get" : {
+        "tags" : [ "Public" ],
+        "summary" : "Retrieves the top \"n\" contracts based on a passed-in metric (e.g. pct_deviation)",
+        "operationId" : "CtopN",
+        "description" : "By passing in the appropriate options, you can search for\navailable inventory in the system\n",
+        "parameters" : [ {
+          "in" : "query",
+          "name" : "time",
+          "description" : "The time period from which to look at when deciding on performance",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "weekly"
+        }, {
+          "in" : "query",
+          "name" : "num",
+          "description" : "The number of contracts to retrieve",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64",
+            "minimum" : 1
+          },
+          "example" : 10
+        }, {
+          "in" : "query",
+          "name" : "offset",
+          "description" : "The amount of SWB to skip (to get contracts 11-20 offset=10, num=10)",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64",
+            "minimum" : 0
+          },
+          "example" : 0
+        }, {
+          "in" : "query",
+          "name" : "field",
+          "description" : "The field by which to rank the contracts (e.g. average_pct_deviation) @Liam",
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "average_pct_deviation"
+        }, {
+          "in" : "query",
+          "name" : "direction",
+          "description" : "The direction by which to order the contracts (ASC or DSC) @Liam",
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "SWB"
+        }, {
+          "in" : "query",
+          "name" : "source",
+          "description" : "Which network to conduct the search in (BSC, Polygon, Eth_Mainnet)",
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "BSC"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "search results matching criteria"
+          }
+        }
+      }
+    },
+    "/SWB/topN" : {
+      "get" : {
+        "tags" : [ "Public" ],
+        "summary" : "Retrieves the top \"n\" SWB based on a passed-in metric (e.g. pct_deviation)",
+        "operationId" : "top1",
+        "description" : "By passing in the appropriate options, you can search for available inventory in the system",
+        "parameters" : [ {
+          "in" : "query",
+          "name" : "time",
+          "description" : "The time period from which to look at when deciding on performance (e.g. daily, weekly, monthly)",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "weekly"
+        }, {
+          "in" : "query",
+          "name" : "num",
+          "description" : "The number of SWB to retrieve",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64",
+            "minimum" : 1
+          },
+          "example" : 10
+        }, {
+          "in" : "query",
+          "name" : "offset",
+          "description" : "The amount of SWB to skip (to get SWB 11-20 offset=10, num=10)",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64",
+            "minimum" : 0
+          },
+          "example" : 0
+        }, {
+          "in" : "query",
+          "name" : "field",
+          "description" : "The field by which to rank the SWB (e.g. average_pct_deviation) @Liam",
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "average_pct_deviation"
+        }, {
+          "in" : "query",
+          "name" : "direction",
+          "description" : "The direction by which to order the SWB (ASC or DSC) @Liam",
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "ASC"
+        }, {
+          "in" : "query",
+          "name" : "source",
+          "description" : "Which network to conduct the search in (SWB, Polygon, Eth_Mainnet)",
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "BSC"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "search results matching criteria"
+          }
+        }
+      }
+    }
+  }
