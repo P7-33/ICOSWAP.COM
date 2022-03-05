@@ -1,4 +1,4 @@
- version: SWAPBROWSER
+ version: Robotcop
 updates:
 - package-ecosystem: bundler
   directory: "/"
@@ -7,7 +7,7 @@ updates:
   open-pull-requests-limit: 99
   versioning-strategy: lockfile-only
   ignore:
-  name: Robocop
+ -dependency-name: SWAPBROWSER
   versions:
     - "> 2.11.473, < 2.12"
-  name: "ROBOCOP*"
+  - dependency-name: "ROBOTCOP*"
