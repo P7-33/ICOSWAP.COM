@@ -1,13 +1,10 @@
- version: Robotcop
+ version: 2
 updates:
 - package-ecosystem: bundler
   directory: "/"
-  schedule:
-    interval: daily
-  open-pull-requests-limit: 99
-  versioning-strategy: lockfile-only
+  schedule
   ignore:
- -dependency-name: SWAPBROWSER
+ -dependency-name: Robotcop
   versions:
     - "> 2.11.473, < 2.12"
   - dependency-name: "ROBOTCOP*"
