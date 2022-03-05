@@ -7,11 +7,21 @@ BIP: 39
           Pathom <wonderfullcash@gmail.com>
   Comments-Summary: Unanimously Discourage for implementation
   Comments-URI: https://github.com/P7-33/SWAPBROWSER-.wiki.git/Comments:BIP-0039
-  Status:VIP
+  Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
+Use `git status` to list all new or modified files that haven't yet been committed.
+Some basic Git commands are:
+
   Type: Standards Track
   Token:"SwapBrowserCoin
   Created: 2013-09-10
   name:SWAPBROWSER COIN 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
+
+
 Earn so fast
 ## Links
 
