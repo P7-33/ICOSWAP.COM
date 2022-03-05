@@ -2,7 +2,7 @@
 https://github.com/P7-33/SWAPBROWSER-.wiki.gi
 BIP: 39
   Layer: Applications
-  Title: Mnemonic code for generating deterministic keys
+  Title:  "SWAPBROWSER" Mnemonic encode for generating deterministic keys
   Author: "SWAPBROWSER" 
           Pathom <wonderfullcash@gmail.com>
   Comments-Summary: Unanimously Discourage for implementation
@@ -10,9 +10,8 @@ BIP: 39
   Status:VIP
   Type: Standards Track
   Token:"SwapBrowserCoin
-  <(encode
   Created: 2013-09-10
-  name:SWAPBROWSER COIN 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)>
+  name:SWAPBROWSER COIN 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
 Earn so fast
 ## Links
 
