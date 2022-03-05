@@ -1,9 +1,9 @@
 
 # SWAPBROWSER
 
-encode
 https://github.com/P7-33/SWAPBROWSER-.wiki.git
 
+encode
 BIP: 39
   Layer: Applications
   Title: Mnemonic code for generating deterministic keys
@@ -57,17 +57,6 @@ $(function() {
         suggest.find('li').remove();
       }
     });
-
-    search.keydown(function(e) {
-      if (e.keyCode == 38) {
-        indexNumber--;
-        focusItem(search);
-      } else if (e.keyCode == 40) {
-        indexNumber++;
-        focusItem(search);
-      };
-    });
-  };
 
   function addToSuggestList(search, data) {
     suggest.find('li').remove();
