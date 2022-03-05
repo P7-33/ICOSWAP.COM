@@ -8,7 +8,7 @@ BIP: 39
   Author: "SWAPBROWSER" 
           Pathom <wonderfullcash@gmail.com>
   Comments-Summary: Unanimously Discourage for implementation
-  Comments-URI: /Comments:BIP-0039
+  Comments-URI: https://github.com/P7-33/SWAPBROWSER-.wiki.git/Comments:BIP-0039
   Status: Proposed
   Type: Standards Track
   Created: 2013-09-10
@@ -16,7 +16,7 @@ BIP: 39
 Earn so fast
 ## Links
 
-* [Slack][]: #swapbrowser-org
+* [Slack][# SWAPBROWSER.org]: 
 * [RFCs](https://github.com/swapbrowser/rfcs)
 * [Support](mailto:support@swapbrowser.org)
 * [GitHub Workflow][]: [![test workflow](https://github.com/swapbrowser/swapbrowser.org/actions/workflows/test.yml/badge.svg)](https://github.com/swapbrowser/swapbrowser.org/actions/workflows/test.yml) [![lint workflow](https://github.com/swapbrowser/swapbrowser.org/actions/workflows/lint.yml/badge.svg)](https://github.com/swapbrowser/swapbrowser.org/actions/workflows/lint.yml) [![docker workflow](https://github.com/swapbrowser/swapbrowser.org/actions/workflows/docker.yml/badge.svg)](https://github.com/rubygems/swapbrowser.org/actions/workflows/docker.yml)
