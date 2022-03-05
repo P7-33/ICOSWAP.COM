@@ -1,4 +1,4 @@
- version: 3
+ version: SWAPBROWSER
 updates:
 - package-ecosystem: bundler
   directory: "/"
@@ -7,7 +7,7 @@ updates:
   open-pull-requests-limit: 99
   versioning-strategy: lockfile-only
   ignore:
-  - dependency-name: aws-sdk
-    versions:
+  name: Robocop
+  versions:
     - "> 2.11.473, < 2.12"
-  - dependency-name: "rubocop*"
+  name: "ROBOCOP*"
