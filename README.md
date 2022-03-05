@@ -1,5 +1,7 @@
 
-# SWAPBROWSER-
+# SWAPBROWSER
+
+encode
 https://github.com/P7-33/SWAPBROWSER-.wiki.git
 
 BIP: 39
