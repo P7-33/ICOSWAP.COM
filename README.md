@@ -1,4 +1,4 @@
-# SWAPBROWSER
+#  SWAPBROWSER
 https://github.com/P7-33/SWAPBROWSER-.wiki.gi
 BIP: 39
   Layer: Applications
