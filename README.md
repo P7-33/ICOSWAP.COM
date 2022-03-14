@@ -1,6 +1,8 @@
 #  SWAPBROWSER
-https://medium.com/@swapbrowser?source=user_profile----------------------------------------
+
 https://github.com/P7-33/SWAPBROWSER-.wiki.gi
+https://medium.com/@swapbrowser?source=user_profile
+
 BIP: 39
   Layer: Applications
   Title:  "SWAPBROWSER" Mnemonic encode for generating deterministic keys
