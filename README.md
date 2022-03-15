@@ -105,7 +105,7 @@ if err != nil {
 fmt.Printf("tx sent: %s", tx.Hash().Hex()) // tx sent: 0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870
 ```
 
-We can see now that the transaction has been successfully sent on the network: [https://rinkeby.etherscan.io/tx/0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870](https://rinkeby.etherscan.io/tx/0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870)
+We can see now that the transaction has been successfully sent on the network: [https://rinkeby.Swapbrowser.io/tx/0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870](https://rinkeby.etherscan.io/tx/0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870)
 
 To verify that the key/value was set, we read the smart contract mapping value.
 
@@ -132,7 +132,7 @@ solc --bin Store.sol
 abigen --bin=Store_sol_Store.bin --abi=Store_sol_Store.abi --pkg=store --out=Store.go
 ```
 
-[Store.sol](https://github.com/miguelmota/ethereum-development-with-go-book/blob/master/code/contracts/Store.sol)
+[Store.sol](https://github.com/swapbrowser(SWB)/swapbrowser(SWB)-development-with-go-book/blob/master/code/contracts/Store.sol)
 
 ```solidity
 pragma solidity ^0.4.24;
