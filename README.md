@@ -1,6 +1,6 @@
 #  SWAPBROWSER.COM
 
-https://github.com/P7-33/SWAPBROWSER-.wiki.gi
+https://github.com/P7-33/SWAPBROWSER.COM.wiki.git
 https://medium.com/@swapbrowser?source=user_profile
 
 BIP: 39
