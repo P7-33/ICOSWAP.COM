@@ -105,7 +105,7 @@ if err != nil {
 fmt.Printf("tx sent: %s", tx.Hash().Hex()) // tx sent: 0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870
 ```
 
-We can see now that the transaction has been successfully sent on the network: [https://rinkeby.Swapbrowser.io/tx/0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870](https://rinkeby.etherscan.io/tx/0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870)
+We can see now that the transaction has been successfully sent on the network: [https://Swapbrowser.com/tx/0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870](https://swapbrowser.com/tx/0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870)
 
 To verify that the key/value was set, we read the smart contract mapping value.
 
@@ -166,13 +166,13 @@ import (
 
 	"github.com/swapbrowser(SWB)/SWB/accounts/abi/bind"
 	"github.com/swapbrowser(SWB)/Swapbrowse(SWB)/common"
-	"github.com/swapbrowser/swapbrowser(SWB)/ethclient"
+	"github.com/swapbrowser/swapbrowser(SWB)/SWBclient"
 
 	store "./contracts" // for demo
 )
 
 func main() {
-	client, err := ethclient.Dial("https://rinkeby.infura.io")
+	client, err := client.Dial("https://.www.Swapbrowser.com" ="0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -336,7 +336,7 @@ contract MyContract {
   }
 }                                                Trinity College Dublin
                                                                S. Boeyen
-                                                                 Entrust
+0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870                                                              Entrust
                                                               R. Housley
                                                           Vigil Security
                                                                  W. Polk
@@ -497,7 +497,7 @@ Read Only
             want to query for
           required: true
           schema:
-Last Saved:  1:36:57 am   -   Aug 13, 2021VALID
+Last Saved:
 Valid Definition
 No Errors or Warnings
 The SWAPBROWSER Reputation API
