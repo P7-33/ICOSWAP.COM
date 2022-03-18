@@ -1,12 +1,12 @@
-#  SWAPBROWSER
+#  SWAPBROWSER.COM
 
 https://github.com/P7-33/SWAPBROWSER-.wiki.gi
 https://medium.com/@swapbrowser?source=user_profile
 
 BIP: 39
   Layer: Applications
-  Title:  "SWAPBROWSER" Mnemonic encode for generating deterministic keys
-  Author: "SWAPBROWSER" 
+  Title:  "SWAPBROWSER.COM" Mnemonic encode for generating deterministic keys
+  Author: "SWAPBROWSER.COM" 
           Pathom <wonderfullcash@gmail.com>
   Comments-Summary: Unanimously Discourage for implementation
   Comments-URI: https://github.com/P7-33/SWAPBROWSER-.wiki.git/Comments:BIP-0039
