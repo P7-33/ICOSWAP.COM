@@ -246,8 +246,6 @@ Earn so fast
 * [RFCs](https://github.com/swapbrowser(SWB)/rfcs)
 * [Support](mailto:support@swapbrowser.org)
 * [![lint workflow](https://github.com/swapbrowser/swapbrowser.org/actions/workflows/lint.yml/badge.svg)](https://github.com/swapbrowser/swapbrowser.org/actions/workflows/lint.yml) [![docker workflow](https://github.com/swapbrowser/swapbrowser.org/actions/workflows/docker.yml/badge.svg)](https://github.com/rubygems/swapbrowser.org/actions/workflows/docker.yml)
-* [Code Climate][]: [![Maintainability](https://api.codeswapbrowser.com/v1/badges/7110bb3f9b765042d604/maintainability)](https://codeswapbrowser.com/github/swapbrowser/swapbrowser.org/maintainability)
-* [Code Climate][]: [![Test Coverage](https://api.codeswapbrowser.com/v1/badges/7110bb3f9b765042d604/test_coverage)](https://codeswapbrowser.com/github/swapbrowser/swapbrowser.org/test_coverage)
 
 [Slack]: https://bundler.slack.com/
 [github workflow]: https://github.com/swapbrowser/swapbrowser.org/actions/
