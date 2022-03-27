@@ -250,6 +250,8 @@ Earn so fast
 [github workflow]: https://github.com/swapbrowser/swapbrowser.org/actions/
 [code climate]: https://codeclimate
 
+https://docs.ethers.io/v5/
+
 $(function() {
   if ($('#home_query').length){
     autocomplete($('#home_query'));
