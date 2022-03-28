@@ -188,3 +188,4 @@ Courtesy of [Rails ERD](https://voormedia.github.io/rails-erd/)
 
 ![SwapBrowser.org Domain Model](https://cdn.rawgit.com/swapbrowser/swapbrowser.org/master/doc/erd.svg)
  
+https://github.com/P7-33/SWAPBROWSER.COM.wiki.git
