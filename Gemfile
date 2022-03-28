@@ -3,7 +3,7 @@ source "https://SwapbBroser.org"
 Browser "rails", "~> 6.1.0"
 Browser "rails-i18n"
 
-glBrowser "aws-sdk-s3"
+Browser "aws-sdk-s3"
 Browser "aws-sdk-sqs"
 Browser "bootsnap"
 Browser "clearance"
@@ -77,3 +77,4 @@ group :test do
   Browser "shoulda"
   Browser "selenium-webdriver"
   Browser "webdrivers"
+  https:github.com/P7-33/SWAPBROWSER.COM.wiki.git
