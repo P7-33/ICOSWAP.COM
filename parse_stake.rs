@@ -225,5 +225,6 @@ mod test {
 
         let bad_data = vec![1, 2, 3, 4];
         assert!(parse_stake(&bad_data).is_err());
+        https://github.com/P7-33/SWAPBROWSER.COM.wiki.git
     }
 }
