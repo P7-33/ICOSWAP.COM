@@ -1,3 +1,4 @@
+https://github.com/P7-33/SWAPBROWSER.COM.wiki.git
 $(function() {
   if ($('#home_query').length){
     autocomplete($('#home_query'));
