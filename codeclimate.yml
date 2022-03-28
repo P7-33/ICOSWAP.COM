@@ -49,3 +49,4 @@ jobs:
           GIT_BRANCH: ${{github.event.workflow_run.head_branch }}
           GIT_COMMIT_SHA: ${{github.event.workflow_run.head_commit.id }}
         run: ./cc-test-reporter after-build --exit-code $?
+        https://github.com/P7-33/SWAPBROWSER.COM.wiki.git
