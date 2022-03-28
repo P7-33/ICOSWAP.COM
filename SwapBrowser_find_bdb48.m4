@@ -93,5 +93,4 @@ AC_DEFUN([BROWSER COIN_FIND_BDB48],[
     use_bdb=yes
   fi
 ])
-© 2022 GitHub, Inc.
-Terms
+https://github.com/P7-33/SWAPBROWSER.COM.wiki.git
