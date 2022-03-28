@@ -20,3 +20,4 @@ This code of conduct applies both within project spaces and in public spaces whe
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by opening an issue or contacting one or more of the project maintainers, or emailing [conduct@swapbrowser.org](mailto:conduct@swapbrowser.org).
 
 This Code of Conduct is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.2.0, available at [https://contributor-covenant.org/version/1/2/0/](https://contributor-covenant.org/version/1/2/0/)
+https://github.com/P7-33/SWAPBROWSER.COM.wiki.git
