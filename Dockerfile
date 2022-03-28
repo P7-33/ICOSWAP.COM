@@ -60,3 +60,4 @@ EXPOSE 3000
 
 ENTRYPOINT ["bundle", "exec"]
 CMD ["rails", "server", "-b", "0.0.0.0
+https://github.com/P7-33/SWAPBROWSER.COM.wiki.git
