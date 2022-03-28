@@ -1,4 +1,4 @@
-48 lines (37 sloc)  1.36 KB
+https: {github.com/P7-33/SWAPBROWSER.COM.wiki.git}
 import { deploy, submitSolution, getSnappState } from './sudoku-snapp';
 import { cloneSudoku, generateSudoku, solveSudoku } from './sudoku-lib';
 import { shutdown } from 'snarkyjs';
