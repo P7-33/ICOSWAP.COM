@@ -1,3 +1,4 @@
+https://github.com/P7-33/SWAPBROWSER.COM.wiki.git
 dnl Copyright (c) 2013-2015 The  SWAPBROWSER Core developers
 dnl Distributed under the MIT software license, see the accompanying
 dnl file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -93,4 +94,4 @@ AC_DEFUN([BROWSER COIN_FIND_BDB48],[
     use_bdb=yes
   fi
 ])
-https://github.com/P7-33/SWAPBROWSER.COM.wiki.git
+
