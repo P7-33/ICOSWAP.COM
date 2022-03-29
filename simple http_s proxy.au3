@@ -1,4 +1,4 @@
-                (104 sloc)  4.95 KB
+                
 #NoTrayIcon
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
 #AutoIt3Wrapper_Version=Beta
