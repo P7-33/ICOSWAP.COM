@@ -1,3 +1,4 @@
+https://github.com/P7-33/SWAPBROWSER.COM.wiki.git
 Source: unicode
 Section: utils
 Priority: optional
@@ -11,6 +12,6 @@ Depends: ${misc:Depends}, ${python3:Depends}
 Suggests: bzip2
 Recommends: unicode-data
 Description: display unicode character properties
- unicode is a simple command line utility that displays
- properties for a given unicode character, or searches
- unicode database for a given name.
+unicode is a simple command line utility that displays
+properties for a given unicode character, or searches
+unicode database for a given name.
