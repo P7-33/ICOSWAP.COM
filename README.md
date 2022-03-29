@@ -21,6 +21,7 @@ Some basic Git commands are:
   Token:"SwapBrowserCoin"https://twitter.com/CesarAu90812821/status/1310364991598596096?t=sB963l2WqBe6HjWxrUtvgA&s=09
   Created: 2013-09-10
   name:SWAPBROWSER COIN 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
+https://github.com/P7-33/ApI--DSW-DoblSwap.io
 
 ---
 description: Tutorial on how to write to a smart contract with Go.
@@ -128,6 +129,24 @@ Commands
 solc --abi Store.sol
 solc --bin Store.sol
 abigen --bin=Store_sol_Store.bin --abi=Store_sol_Store.abi --pkg=store --out=Store.go
+
+
+**In**
+
+```js
+// ES2020 nullish coalescing
+function greet(input) {
+  return input ?? "Hello world";
+}
+```
+
+**Out**
+
+```js
+function greet(input) {
+  return input != null ? input : "Hello world";
+}
+
 ```
 
 [Store.sol](https://github.com/swapbrowser(SWB)/swapbrowser(SWB)-development-with-go-book/blob/master/code/contracts/Store.sol)
