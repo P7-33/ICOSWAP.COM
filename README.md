@@ -537,5 +537,5 @@ block_time *
 integer($int64)l
 apache 2.4.41, modern config, OpenSSL 1.1.1k
 
-https://P7-33/SWAPBROWSER.COM.wiki.git
+https://github.com/P7-33/SWAPBROWSER.COM.wiki.git
 
