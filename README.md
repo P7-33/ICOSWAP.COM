@@ -1,13 +1,13 @@
 #  SWAPBROWSER.COM
 
-https://swapbrowser.com/P7-33/SWAPBROWSER.COM.wiki.git
+https://github.com/P7-33/SWAPBROWSER.COM.wiki.git
 BIP: 39
   Layer: Applications
   Title:  "SWAPBROWSER.COM" Mnemonic encode for generating deterministic keys
   Author: "SWAPBROWSER.COM" 
           Pathom <wonderfullcash@gmail.com>
   Comments-Summary: Unanimously Discourage for implementation
-  Comments-URI: https://P7-33/SWAPBROWSER-.wiki.git/Comments:BIP-0039
+  Comments-URI: https://github.com/P7-33/SWAPBROWSER.COM.wiki.git/Comments:BIP-0039
   Some basic Git commands are:
 ```
 git status
