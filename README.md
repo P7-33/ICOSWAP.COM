@@ -269,7 +269,7 @@ Earn so fast
 [github workflow]: https://github.com/swapbrowser/swapbrowser.org/actions/
 [code climate]: https://codeclimate
 
-https://docs.ethers.io/v5/
+https://docs.ethers.io/v5/https://github.com/P7-33/SWAPBROWSER.COM.wiki.git
 
 $(function() {
   if ($('#home_query').length){
