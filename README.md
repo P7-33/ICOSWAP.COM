@@ -1,4 +1,4 @@
-#  MATRIXSWAPSWAP.COM
+#  MATRIXSWAP.COM
 
 https://github.com/P7-33/MATRIXSWAP.COM.wiki.git
 BIP: 39
