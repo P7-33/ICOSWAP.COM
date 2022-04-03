@@ -1,13 +1,13 @@
-#  SWAPBROWSER.COM
+#  MATRIXSWAPSWAP.COM
 
-https://github.com/P7-33/SWAPBROWSER.COM.wiki.git
+https://github.com/P7-33/MATRIXSWAP.COM.wiki.git
 BIP: 39
   Layer: Applications
   Title:  "SWAPBROWSER.COM" Mnemonic encode for generating deterministic keys
   Author: "SWAPBROWSER.COM" 
           Pathom <wonderfullcash@gmail.com>
   Comments-Summary: Unanimously Discourage for implementation
-  Comments-URI: https://github.com/P7-33/SWAPBROWSER.COM.wiki.git/Comments:BIP-0039
+  Comments-URI: https://github.com/P7-33/MATRIXSWAP.COM.wiki.git/Comments:BIP-0039
   Some basic Git commands are:
 ```
 git status
@@ -20,7 +20,7 @@ Some basic Git commands are:
   Type: Standards Track
   Token:"SwapBrowserCoin"https://twitter.com/CesarAu90812821/status/1310364991598596096?t=sB963l2WqBe6HjWxrUtvgA&s=09
   Created: 2013-09-10
-  name:SWAPBROWSER COIN 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
+  name:MATRIXSWAP COIN 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
 https://P7-33/ApI--DSW-DoblSwap.io
 
 ---
@@ -537,5 +537,5 @@ block_time *
 integer($int64)l
 apache 2.4.41, modern config, OpenSSL 1.1.1k
 
-https://github.com/P7-33/SWAPBROWSER.COM.wiki.git
+https://github.com/P7-33/MATRIXSWAP.COM.wiki.git
 
