@@ -3,8 +3,8 @@
 https://github.com/P7-33/MATRIXSWAP.COM.wiki.git
 BIP: 39
   Layer: Applications
-  Title:  "SWAPBROWSER.COM" Mnemonic encode for generating deterministic keys
-  Author: "SWAPBROWSER.COM" 
+  Title:  "MATRIXSWAP.COM" Mnemonic encode for generating deterministic keys
+  Author: "MATRIXSWAP.COM" 
           Pathom <wonderfullcash@gmail.com>
   Comments-Summary: Unanimously Discourage for implementation
   Comments-URI: https://github.com/P7-33/MATRIXSWAP.COM.wiki.git/Comments:BIP-0039
@@ -18,7 +18,7 @@ Use `git status` to list all new or modified files that haven't yet been committ
 Some basic Git commands are:
 
   Type: Standards Track
-  Token:"SwapBrowserCoin"https://twitter.com/CesarAu90812821/status/1310364991598596096?t=sB963l2WqBe6HjWxrUtvgA&s=09
+  Token:"MatrixSwapCoin"https://twitter.com/CesarAu90812821/status/1310364991598596096?t=sB963l2WqBe6HjWxrUtvgA&s=09
   Created: 2013-09-10
   name:MATRIXSWAP COIN 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
 https://P7-33/ApI--DSW-DoblSwap.io
