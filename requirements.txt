@@ -1,0 +1,3 @@
+StackAPI
+colorama
+regex
