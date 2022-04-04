@@ -5,7 +5,7 @@ BIP: 39
   Layer: Applications
   Title:  "MATRIXSWAP.COM" Mnemonic encode for generating deterministic keys
   Author: "MATRIXSWAP.COM" 
-          Pathom <wonderfullcash@gmail.com>
+          Pathom 
   Comments-Summary: Unanimously Discourage for implementation
   Comments-URI: https://github.com/P7-33/MATRIXSWAP.COM.wiki.git/Comments:BIP-0039
   Some basic Git commands are:
