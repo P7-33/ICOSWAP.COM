@@ -18,8 +18,7 @@ Some basic Git commands are:
   Type: Standards Track
   
   Created: 2013-09-10
-  name:MATRIXSWAP COIN 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
-
+  name:MATRIXSWAP COIN 
 ---
 description: Tutorial on how to write to a smart contract with Go.
 ---
@@ -144,10 +143,6 @@ function greet(input) {
   return input != null ? input : "Hello world";
 }
 
-```
-
-[Store.sol](https://github.com/swapbrowser(SWB)/swapbrowser(SWB)-development-with-go-book/blob/master/code/contracts/Store.sol)
-
 ```solidity
 pragma solidity ^0.4.24;
 
@@ -167,8 +162,6 @@ contract Store {
   }
 }
 ```
-
-[contract_write.go](https://github.com/swapbrowser(SWB)/swapbrowser(SWB)
 -development-with-go-book/blob/master/code/contract_write.go)
 
 ```go
@@ -177,17 +170,12 @@ package main
 import (
 	"fmt"
 	"log"
-
-	"github.com/swapbrowser(SWB)/SWB/accounts/abi/bind"
-	"github.com/swapbrowser(SWB)/Swapbrowse(SWB)/common"
-	"github.com/swapbrowser/swapbrowser(SWB)/SWBclient"
-
 	store "./contracts" // for demo
 )
 
 func main() {
-	client, err := client.Dial("https://swapbrowser.medium.com/
-        Owner"0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870")
+	client, err := 
+        
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -220,7 +208,7 @@ func main() {
 	auth.GasLimit = uint64(300000) // in units
 	auth.GasPrice = gasPrice
 
-	address := common.HexToAddress("0x147B8eb97fD247D06C4006D269c90C1908Fb5D54")
+	address := 
 	instance, err := store.NewStore(address, client)
 	if err != nil {
 		log.Fatal(err)
@@ -258,12 +246,12 @@ Earn so fast
 ## Links
 
 * [Slack][]: 
-* [RFCs](https://github.com/swapbrowser(SWB)/rfcs)
-* [Support](mailto:support@swapbrowser.org)
-* [![lint workflow](https://swapbrowser.com/swapbrowser.org/actions/workflows/lint.yml/badge.svg)](https://swapbrowser.com/swapbrowser.org/actions/workflows/lint.yml) [![docker workflow](https:///swapbrowser.com/swapbrowser.org/actions/workflows/docker.yml/badge.svg)](https://swapbrowser.com/rubygems/swapbrowser.org/actions/workflows/docker.yml)
+
+* 
+* 
 
 [Slack]: https://bundler.slack.com/
-[github workflow]: https://github.com/swapbrowser/swapbrowser.org/actions/
+[github 
 [code climate]: https://codeclimate
 
 https://docs.ethers.io/v5/
@@ -324,11 +312,11 @@ $(function() {
 
   /* remove suggest drop down if clicked anywhere on page */
   $('html').click(function(e) { suggest.find('li').remove(); });
-}) 
- https://swapbrowser.medium.com/  
+})
+
 ## Using solidity interfaces
 [{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_upgradedAddress","type":"address"}],"name":"deprecate","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_value","type":"uint256"}],"name":"approve","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"deprecated","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_evilUser","type":"address"}],"name":"addBlackList","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_from","type":"address"},{"name":"_to","type":"address"},{"name":"_value","type":"uint256"}],"name":"transferFrom","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"upgradedAddress","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"name":"","type":"uint8"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"maximumFee","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"_totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"unpause","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_maker","type":"address"}],"name":"getBlackListStatus","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"paused","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_subtractedValue","type":"uint256"}],"name":"decreaseApproval","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"who","type":"address"}],"name":"balanceOf","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_value","type":"uint256"}],"name":"calcFee","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"pause","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_value","type":"uint256"}],"name":"transfer","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"who","type":"address"}],"name":"oldBalanceOf","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"newBasisPoints","type":"uint256"},{"name":"newMaxFee","type":"uint256"}],"name":"setParams","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"amount","type":"uint256"}],"name":"issue","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_addedValue","type":"uint256"}],"name":"increaseApproval","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"amount","type":"uint256"}],"name":"redeem","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"},{"name":"_spender","type":"address"}],"name":"allowance","outputs":[{"name":"remaining","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"basisPointsRate","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"isBlackListed","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_clearedUser","type":"address"}],"name":"removeBlackList","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"MAX_UINT","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_blackListedUser","type":"address"}],"name":"destroyBlackFunds","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[{"name":"_initialSupply","type":"uint256"},{"name":"_name","type":"string"},{"name":"_symbol","type":"string"},{"name":"_decimals","type":"uint8"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_blackListedUser","type":"address"},{"indexed":false,"name":"_balance","type":"uint256"}],"name":"DestroyedBlackFunds","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"amount","type":"uint256"}],"name":"Issue","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"amount","type":"uint256"}],"name":"Redeem","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"newAddress","type":"address"}],"name":"Deprecate","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_user","type":"address"}],"name":"AddedBlackList","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_user","type":"address"}],"name":"RemovedBlackList","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"feeBasisPoints","type":"uint256"},{"indexed":false,"name":"maxFee","type":"uint256"}],"name":"Params","type":"event"},{"anonymous":false,"inputs":[],"name":"Pause","type":"event"},{"anonymous":false,"inputs":[],"name":"Unpause","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"previousOwner","type":"address"},{"indexed":true,"name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"owner","type":"address"},{"indexed":true,"name":"spender","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Transfer","type":"event"}]
-The swapbrowser interfaces are available for import into solidity smart contracts
+Tinterfaces are available for import into solidity smart contracts
 via the npm artifact `@uniswap/v3-core`, e.g.:
 
 ```solidity
@@ -507,7 +495,7 @@ Read Only
 Last Saved:
 Valid Definition
 No Errors or Warnings
-The SWAPBROWSER Reputation API
+The Reputation API
  1.0.0 
 OAS3
 The Public API for Reputation.link. We offer data across Oracles that power the Chainlink network.
@@ -529,7 +517,6 @@ contract_address *
 string
 (path)
 The address of the contract you want to query from
-Owner:0xD9AB973c8D3f220268B02Ff2Bd40f7B44EcC5f94
 block_time *
 integer($int64)l
 apache 2.4.41, modern config, OpenSSL 1.1.1k
