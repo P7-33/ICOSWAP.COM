@@ -1,13 +1,11 @@
-#  MATRIXSWAP.COM
-
-https://github.com/P7-33/MATRIXSWAP.COM.wiki.git
+#  MATRIXSWAP
 BIP: 39
   Layer: Applications
   Title:  "MATRIXSWAP.COM" Mnemonic encode for generating deterministic keys
   Author: "MATRIXSWAP.COM" 
           Pathom 
   Comments-Summary: Unanimously Discourage for implementation
-  Comments-URI: https://github.com/P7-33/MATRIXSWAP.COM.wiki.git/Comments:BIP-0039
+  Comments-URI: /Comments:BIP-0039
   Some basic Git commands are:
 ```
 git status
@@ -21,7 +19,6 @@ Some basic Git commands are:
   
   Created: 2013-09-10
   name:MATRIXSWAP COIN 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
-https://P7-33/ApI--DSW-DoblSwap.io
 
 ---
 description: Tutorial on how to write to a smart contract with Go.
@@ -537,5 +534,5 @@ block_time *
 integer($int64)l
 apache 2.4.41, modern config, OpenSSL 1.1.1k
 
-https://github.com/P7-33/MATRIXSWAP.COM.wiki.git
+
 
