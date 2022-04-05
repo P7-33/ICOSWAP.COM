@@ -486,8 +486,8 @@ Read Only
         available inventory in the system
       parameters:
         - in: path
-          name: swapbrowser_address
-          description: The address of the swapbrowser you 
+          _address
+          description: The addres
             want to query for
           required: true
           schema:
