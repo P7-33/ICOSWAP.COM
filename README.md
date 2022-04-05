@@ -330,8 +330,7 @@ contract MyContract {
     // pool.swap(...);
   }
 }                                                Trinity College Dublin
-                                                               S. Boeyen
-0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870                                                              Entrust
+                                                                                                                           Entrust
                                                               R. Housley
                                                           Vigil Security
                                                                  W. Polk
