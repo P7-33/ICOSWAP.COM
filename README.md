@@ -44,7 +44,7 @@ if !ok {
 fromAddress := crypto.PubkeyToAddress(*publicKeyECDSA)
 ```
 
-We'll also need to figure the nonce and gas price.
+We'll also need to  figure the nonce and gas price.
 
 ```go
 nonce, err := client.PendingNonceAt(context.Background(), fromAddress)
