@@ -1,8 +1,8 @@
-#  MATRIXSWAP
+# ICOSWAP
 BIP: 39
   Layer: Applications
-  Title:  "MATRIXSWAP.COM" Mnemonic encode for generating deterministic keys
-  Author: "MATRIXSWAP.COM" 
+  Title:  "ICOSWAP.COM" Mnemonic encode for generating deterministic keys
+  Author: "ICOSWAP.COM" 
           Pathom 
   Comments-Summary: Unanimously Discourage for implementation
   Comments-URI: /Comments:BIP-0039
@@ -18,7 +18,7 @@ Some basic Git commands are:
   Type: Standards Track
   
   Created: 2013-09-10
-  name:MATRIXSWAP COIN 
+  name:ICOSWAP COIN 
 ---
 description: Tutorial on how to write to a smart contract with Go.
 ---
@@ -224,7 +224,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	fmt.Printf("tx sent: %s", tx.Hash().Hex()) // tx sent: 0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870
+	fmt.Printf("tx sent: %s", tx.Hash().Hex()) // tx sent: 
 
 	result, err := instance.Items(nil, key)
 	if err != nil {
