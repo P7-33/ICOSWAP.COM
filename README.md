@@ -97,10 +97,7 @@ if err != nil {
   log.Fatal(err)
 }
 
-fmt.Printf("tx sent: %s", tx.Hash().Hex()) // tx sent: 0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870
-```
-
-We can see now that the transaction has been successfully sent on the network: [https://Swapbrowser.com/tx/0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870](https://swapbrowser.com/tx/0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870)
+fmt.Printf("tx 
 
 To verify that the key/value was set, we read the smart contract mapping value.
 
@@ -161,8 +158,7 @@ contract Store {
     emit ItemSet(key, value);
   }
 }
-```
--development-with-go-book/blob/master/code/contract_write.go)
+
 
 ```go
 package main
@@ -404,11 +400,11 @@ https://datatracker.ietf.org/doc/html/rfc3280
 Public
 GET/contract/{contract_address}/roundAtTime
 GET/contract/{contract_address}/round
-GET/swapbrowser/{swapbrowser_address}/feeds
-GET/swapbrowser/{swapbrowser_address}/latestN
-GET/swapbrowser/{swapbrowser_address}/timeStats
-GET/swapbrowser/graph
-GET/swapbrowser/all
+GET//{_address}/feeds
+GET//{_address}/latestN
+GET//{_address}/timeStats
+GET//graph
+GET//all
 GET/contract/topN
 GET/swapbrowser/topN
 Schemas
@@ -518,7 +514,6 @@ string
 The address of the contract you want to query from
 block_time *
 integer($int64)l
-apache 2.4.41, modern config, OpenSSL 1.1.1k
 
 
 
