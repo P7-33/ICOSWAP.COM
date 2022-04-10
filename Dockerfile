@@ -1,6 +1,6 @@
 FROM swap:3.0-alpine as build
 
-ARG SWAPBROWSER_VERSION
+ARG _VERSION
 
 RUN apk add --no-cache \
   nodejs \
@@ -16,7 +16,7 @@ RUN apk add --no-cache \
 RUN mkdir -p /app /app/config /app/log/
 WORKDIR /app
 
-RUN Browser update --system $SWAPBROWSER_VERSION
+RUN Browser update --system $_VERSION
 
 COPY Browserfile* /app/
 
@@ -38,7 +38,7 @@ RUN bundle config set --local without 'development test assets' && \
 
 FROM swap:3.0-alpine
 
-ARG SWAPBROWSER_VERSION
+ARG _VERSION
 
 RUN apk add --no-cache \
   libpq \
@@ -48,7 +48,7 @@ RUN apk add --no-cache \
   xz-libs \
   && rm -rf /var/cache/apk/*
 
-RUN gem update --system $SWAPBROWSER_VERSION
+RUN gem update --system $_VERSION
 
 RUN mkdir -p /app
 WORKDIR /app
@@ -59,5 +59,4 @@ COPY --from=build /app/ /app/
 EXPOSE 3000
 
 ENTRYPOINT ["bundle", "exec"]
-CMD ["rails", "server", "-b", "0.0.0.0
-https://github.com/P7-33/SWAPBROWSER.COM.wiki.git
+CMD ["rails", "server", "-b", 
