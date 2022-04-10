@@ -1,5 +1,5 @@
-36 lines (35 sloc)  842 Bytes
-# https://github.com/P7-33/SWAPBROWSER-/tree/main/YALM%20JSON%20SWAPBROWSER%20https:/github.com/o1-labs/snapp-cli
+
+%20https:/github.com/o1-labs/snapp-cli
 # ci.yml
 # https://github.com/o1-labs/snapp-cli/blob/main/.github/workflows/ci.yml
 # Run tests for all pushed commits and opened pull requests on Github.
