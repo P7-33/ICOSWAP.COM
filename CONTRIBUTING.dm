@@ -1,7 +1,7 @@
 Contribution Guidelines
 =======================
 
-Want to get started working SwapBrowser .org? Start here!
+Want to get started working .org? Start here!
 
 How To Contribute
 -----------------
@@ -186,6 +186,4 @@ Database Layout
 
 Courtesy of [Rails ERD](https://voormedia.github.io/rails-erd/)
 
-![SwapBrowser.org Domain Model](https://cdn.rawgit.com/swapbrowser/swapbrowser.org/master/doc/erd.svg)
- 
-https://github.com/P7-33/SWAPBROWSER.COM.wiki.git
+![SwapBrowser.org Domain 
