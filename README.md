@@ -3,9 +3,9 @@ BIP: 39
   Layer: Applications
   Title:  "ICOSWAP.COM" Mnemonic encode for generating deterministic keys
   Author: "ICOSWAP.COM" 
-          Pathom 
+          
   Comments-Summary: Unanimously Discourage for implementation
-  Comments-URI: /Comments:BIP-0039
+  Comments-URI: /Comment
   Some basic Git commands are:
 ```
 git status
@@ -513,7 +513,7 @@ string
 (path)
 The address of the contract you want to query from
 block_time *
-integer($int64)l
+
 
 
 
