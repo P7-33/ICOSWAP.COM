@@ -1,9 +1,9 @@
-//Copyright (c) 2019-2020 The Browser coin Core developers
+//Copyright (c) 2019-2020 The  coin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BROWSER_BROWSER_CONFIG_H
-#define BROWSER_BROWSER_CONFIG_H
+#ifndef _CONFIG_H
+#define -CONFIG_H
 
 /* Version Build */
 #define CLIENT_VERSION_BUILD $
@@ -202,4 +202,4 @@
 
 #endif // !WINAPI_FAMILY || WINAPI_FAMILY_DESKTOP_APP
 
-#endif //BROWSER_BROWSER_CONFIG_H
+#endif //_CONFIG_H
